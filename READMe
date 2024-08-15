@@ -1,0 +1,12 @@
+This notebook outlines the embeddings layer training, although still the loss is very high the reason are:
+1) the ecample sentences are too less 
+2) the learning is small hence it is teaking more time to converge.
+3) you can increase the learning once you download the notebook and again decrease it if you get into some local minima to reach to the global minima
+
+HOW TO MAKE THIS BETTER ?
+1) add more corpus 
+2) increase the learning rate initially and then decrease it later 
+3) maybe try with momemtum changing learning rate optimizer or nostrev for better learning rate optimiser.
+
+FUTURE STEPS:
+i will give it more time in training and add more corpus, once the gradient starts diminishing.  
